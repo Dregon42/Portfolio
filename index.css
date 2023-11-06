@@ -1,0 +1,26 @@
+section {
+    background-image: url(static/IMG_2378.JPEG);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    position: relative; /* Needed for button positioning */
+    margin-top: 100px;
+}
+
+.about-circle {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
